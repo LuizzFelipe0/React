@@ -62,3 +62,10 @@ console.log(idades);
 const nomes = registros.map((registro) => registro.nome);
 console.log(nomes);
 
+console.log("\n");
+ //-----------------------------------------------
+
+ function execute(){
+     console.log("Executou...")
+ }
+ setTimeout(execute, 2000) /* Função que coloca um Timer em milissegundos*/
